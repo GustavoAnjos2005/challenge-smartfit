@@ -21,10 +21,10 @@
         <input type="checkbox" name="showClosed" formControlName="showClosed"/>
         <label for="showClosed">Exibir unidades fechadas</label>
     </div>
-    <span>Resultados encontrados: {{ results.length }}</span>
+    <span>Resultados encontrados: {{ filterdResults.length }}</span>
 </div>
 <div class="btn-wrapper">
     <button class="btn btn-primary"(click)="onSubmit">Encontrar unidade</button>
-    <button class="btn btn-secondary" (click)="onClean">Limpar</button>
+    <button class="btn btn-secondary"(click)="onClean">Limpar</button>
 </div>
 </form>
